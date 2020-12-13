@@ -1,0 +1,12 @@
+h3,p,ul{
+    color:azure;
+}
+
+div.content{
+    position: absolute;
+    background-color: rgba(5, 10, 10, 0.712);
+    left: 15%;
+    border-radius:20px;
+    text-align: center;
+
+}

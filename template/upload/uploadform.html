@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block title %}Image upload and recognition{% endblock %}
+{% block header_extends %}
+<link rel="stylesheet" type="text/css" href="/static/uploadform.css">
+{% endblock %}
+{% block nav_upload_active %}active{% endblock %}
+
+{% block content %}
+    <form enctype="multipart/form-data" method="POST"> 
+         {% csrf_token %}
+         {{ form.as_p }}
+         <input type="submit" value="Submit"> 
+    </form>
+
+<p>{{ blog.content }}</p>
+{% endblock %}

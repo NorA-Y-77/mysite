@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    BookGroup|HOMEPAGE
+{% endblock %}
+
+{% block header_extends %}
+<link rel="stylesheet" type="text/css" href="/static/home.css">
+{% endblock %}
+
+{% block nav_home_active %}active{% endblock %}
+
+{% block content %}
+<div class="jumbotron">
+  <h1>Welcome!</h1>
+  <p>Welcome to BookGroup</p>
+  <p><a class="btn btn-primary btn-lg" href="{% url 'upload_file' %}" role="button">Start recognition</a></p>
+</div>
+{% endblock %}

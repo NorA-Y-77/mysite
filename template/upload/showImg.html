@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% block title %}上传成功{% endblock %}
+{% block header_extends %}
+<link rel="stylesheet" type="text/css" href="/static/showImg.css">
+{% endblock %}
+{% block content %}
+<div class = "content">
+
+    <h3>Uploaded files</h3>
+    
+    
+    <br/>
+
+    <p>Image name: {{ picture.photo.name }}</p>
+    <br/>
+
+    <img src="{{ picture.photo.url }}", height="200", width="300" />
+    <br>
+    <ul>
+        {% for k,row in label.items %}
+            <li>{{ k }}-{{ row }}</li>
+        {% endfor %}
+    </ul>
+</div>
+{% endblock %}
+

@@ -1,0 +1,11 @@
+{
+    "python.pythonPath": "C:\\Users\\ayano\\AppData\\Local\\Programs\\Python\\Python38\\python.exe",
+    "python.linting.pylintArgs": [
+        "--load-plugins=pylint_django",
+        "--disable=missing-docstring",
+        "--disable=trailing-newlines",
+        "--disable=trailing whitespace",
+        "--disable=import-error",
+        "--disable=wrong-import-order",
+    ]
+}

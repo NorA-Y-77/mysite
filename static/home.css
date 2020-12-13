@@ -1,0 +1,16 @@
+div.jumbotron{
+    margin-top: 25%;
+    background-color: #eeeeee73;
+}
+h1,p{
+    margin-left: 8%;
+
+}
+
+div.jumbsd {
+    font-size: 222%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
